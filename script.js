@@ -29,6 +29,11 @@ $('#spotify').click(function() {
     var win = window.open('https://github.com/bishop-of-intensity/Holistic-Approach', '_blank');
     win.focus();
 });
+$('#apple-music').click(function() {
+    console.log('apple-music link')
+    var win = window.open('https://github.com/bishop-of-intensity/Holistic-Approach', '_blank');
+    win.focus();
+});
 $('#tickets').click(function() {
     console.log('tickets link')
     var win = window.open('https://github.com/bishop-of-intensity/Holistic-Approach', '_blank');

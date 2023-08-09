@@ -151,13 +151,23 @@ body {
 }
 
 .band_container-2 .grid > div {
-  height: 10rem;
-  width: 10rem;
+  height: 11rem;
+  width: 11rem;
   border: 1px solid lightgreen;
   margin: 2rem 2rem;
   flex-grow: 3;
   cursor: pointer;
   user-select: none;
+  max-width: 11rem;
+}
+
+
+
+#album-1 {
+  background-image: url('img/IMG-20230802-WA0018.jpg');
+  background-size: contain;
+  border: none;
+  background-repeat: no-repeat;
 }
 
 .grid .hide {
@@ -192,7 +202,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin-top: 2rem;
-  padding: 0 2rem;
+  /* padding: 0 2rem; */
   min-height: 5rem;
 }
 
@@ -235,6 +245,11 @@ body {
 
 #spotify {
   fill: #1DB954;
+  background-color: rgb(255, 255, 255);
+}
+
+#apple-music {
+  fill: #fb425c;
   background-color: rgb(255, 255, 255);
 }
 
