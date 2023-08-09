@@ -74,11 +74,25 @@ body {
   align-items: center;
   font-family: Delicious;
   font-size: 1.5rem;
+  cursor: pointer;
+  user-select: none;
 }
 
 .band_container-1 {
-  background-image: url('img/bnd-1.png');
+  /* background-image: url('img/bnd-1.png'); */
   width: 100%;
+  /* height: 37rem; */
+  /* background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center; */
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.band_container-1 > div {
+  background-image: url('img/bnd-1.png');
+  width: 37rem;
   height: 37rem;
   background-size: contain;
   background-repeat: no-repeat;
@@ -86,17 +100,94 @@ body {
   position: relative;
   display: flex;
   justify-content: space-between;
+  padding: 0.2rem;
 }
 
 .band_container-2 {
-  background-image: url('img/AbstractBlackhole.jpg');
+  /* background-image: url('img/AbstractBlackhole.jpg'); */
+  /* background: rgb(108,207,20); */
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 50rem;
+  height: 100vh;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.band_container-2.visible-popup {
+  visibility: visible;
+  pointer-events: all;
+}
+
+.band_container-2 > div {
+  /* background-image: url('img/AbstractBlackhole.jpg'); */
+  /* background: rgb(108,207,20); */
+  /* background: linear-gradient(135deg, rgba(108,207,20,1) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 50%, rgba(0,168,255,1) 100%);
+  width: 100%;
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
+  position: absolute;
+  top: 20vh;
+  height: 60vh; */
+  height: 60vh;
   position: relative;
+  width: 34rem;
+  border-radius: 0.5rem;
+  background: linear-gradient(135deg, rgba(108,207,20,1) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 50%, rgba(0,168,255,1) 100%);
 }
+
+
+.band_container-2 .grid {
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.band_container-2 .grid > div {
+  height: 10rem;
+  width: 10rem;
+  border: 1px solid lightgreen;
+  margin: 2rem 2rem;
+  flex-grow: 3;
+  cursor: pointer;
+  user-select: none;
+}
+
+.grid .hide {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+#close-popup {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 13rem;
+  width: 11rem;
+  background-image: url('img/popup2.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#close-popup > div {
+  color: white;
+  font-family: 'Delicious';
+  font-size: 2rem;
+  transform: translate(0.5rem, 1.5rem);
+  cursor: pointer;
+  user-select: none;
+}
+
 .redirect-links {
   display: flex;
   justify-content: space-between;
@@ -146,11 +237,6 @@ body {
   fill: #1DB954;
   background-color: rgb(255, 255, 255);
 }
-@media screen and (max-width: 63.9em) and (orientation: portrait) {
-  html {
-      font-size: 1.5rem;
-  }
-}
 
 
 .logo_1 {
@@ -193,6 +279,30 @@ body {
   margin-top: 0.2rem;
   margin-left: 0.1rem;
 }
+
+
+
+@media screen and (max-width: 63.9em) and (orientation: portrait) {
+  html {
+      font-size: 1.5rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @keyframes ceva {
@@ -268,4 +378,7 @@ body {
     font-size: 1.5rem;
   }
 }
+
+
+
 
