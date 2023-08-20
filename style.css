@@ -338,8 +338,8 @@ body {
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 20rem;
-  height: 13rem;
+  width: 60%;
+  height: 23vh;
 }
 
 .popup-member-img-overlay {
@@ -353,6 +353,8 @@ body {
 }
 
 
+
+
 .popup-member-img-portrait-1 {
   background-image: url('img/andy-holmes__bk_nou_1.jpg');
   background-position-x: -8rem;
@@ -363,7 +365,7 @@ body {
 }
 .popup-member-img-portrait-3 {
   background-image: url(img/GUTS/Johnny.jpg);
-  background-position-x: -14rem;
+  background-position-x: -26rem;
   background-position-y: -1rem;
 }
 .popup-member-img-portrait-4 {
@@ -392,7 +394,7 @@ body {
 }
 .popup-member-img-overlay-3 {
   background-image: url(img/GUTS/Johnny.jpg);
-  background-position-x: -8rem;
+  background-position-x: -22rem;
   opacity: 0.2;
 }
 .popup-member-img-overlay-4 {
@@ -410,6 +412,69 @@ body {
   background-position-x: -8rem;
   opacity: 0.2;
 }
+
+
+@media screen and (max-width: 63.9em) and (orientation: portrait) {
+
+  .popup-member-img-portrait-1 {
+    background-image: url('img/andy-holmes__bk_nou_1.jpg');
+    background-position-x: -8rem;
+  }
+  .popup-member-img-portrait-2 {
+    background-image: url('img/andy-holmes__bk_nou_1.jpg');
+    background-position-x: -8rem;
+  }
+  .popup-member-img-portrait-3 {
+    background-image: url(img/GUTS/Johnny.jpg);
+    background-position-x: -14rem;
+    background-position-y: -1rem;
+  }
+  .popup-member-img-portrait-4 {
+    background-image: url('img/andy-holmes__bk_nou_1.jpg');
+    background-position-x: -8rem;
+  }
+  .popup-member-img-portrait-5 {
+    background-image: url('img/andy-holmes__bk_nou_1.jpg');
+    background-position-x: -8rem;
+  }
+  .popup-member-img-portrait-ALL {
+    background-image: url('img/andy-holmes__bk_nou_1.jpg');
+    background-position-x: -8rem;
+  }
+  
+  
+  .popup-member-img-overlay-1 {
+    background-image: url('img/NeonTrippyGasMaskV2.png');
+    background-position-x: -8rem;
+    opacity: 0.2;
+  }
+  .popup-member-img-overlay-2 {
+    background-image: url('img/NeonTrippyGasMaskV2.png');
+    background-position-x: -8rem;
+    opacity: 0.2;
+  }
+  .popup-member-img-overlay-3 {
+    background-image: url(img/GUTS/Johnny.jpg);
+    background-position-x: -8rem;
+    opacity: 0.2;
+  }
+  .popup-member-img-overlay-4 {
+    background-image: url('img/NeonTrippyGasMaskV2.png');
+    background-position-x: -8rem;
+    opacity: 0.2;
+  }
+  .popup-member-img-overlay-5 {
+    background-image: url('img/NeonTrippyGasMaskV2.png');
+    background-position-x: -8rem;
+    opacity: 0.2;
+  }
+  .popup-member-img-overlay-ALL {
+    background-image: url('img/NeonTrippyGasMaskV2.png');
+    background-position-x: -8rem;
+    opacity: 0.2;
+  }
+}
+
 
 
 
