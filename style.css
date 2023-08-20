@@ -49,13 +49,29 @@ body {
 }
 
 .poza_si_logo_container {
-  background-image: url('img/NeonTrippyGasMaskV2.png');
   width: 100%;
   height: 50rem;
+}
+
+.poza_si_logo_ {
+  width: 100%;
+  height: 100%;
+  position: relative;
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
-  position: relative;
+  background-image: url('img/NeonTrippyGasMaskV2.png');
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+
+@keyframes example {
+  0% { opacity: 1;}
+  50% { opacity: 0.4;}
+  100% { opacity: 1;}
 }
 
 @font-face { font-family: Delicious; src: url('dependencies/Metal_Mania/MetalMania-Regular.ttf'); } 
@@ -78,6 +94,27 @@ body {
   user-select: none;
 }
 
+.popup-button-band-members {
+  height: 3.3rem;
+  min-width: 8.3rem;
+  margin: 0.25rem;
+  padding: 0.25rem;
+  border-radius: 1rem;
+  background: #48eaee;
+  color: rgb(0, 0, 0);
+  border: 0.25rem black solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Delicious;
+  font-size: 1.5rem;
+  cursor: pointer;
+  user-select: none;
+}
+.popup-button-band-members.wide-button {
+  width: 100%;
+}
+
 .band_container-1 {
   /* background-image: url('img/bnd-1.png'); */
   width: 100%;
@@ -98,10 +135,62 @@ body {
   background-repeat: no-repeat;
   background-position-x: center;
   position: relative;
-  display: flex;
   justify-content: space-between;
   padding: 0.2rem;
+  border-radius: 1.2rem;
 }
+
+.cat-0-band-buttons {
+  width: 100%;
+}
+
+.cat-1-band-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cat-2-band-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cat-3-band-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 25rem;
+}
+
+
+
+#album-1 {
+  background-image: url('img/IMG-20230802-WA0018.jpg');
+  background-size: contain;
+  border: none;
+  background-repeat: no-repeat;
+}
+
+.grid .hide {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .band_container-2 {
   /* background-image: url('img/AbstractBlackhole.jpg'); */
@@ -125,16 +214,6 @@ body {
 }
 
 .band_container-2 > div {
-  /* background-image: url('img/AbstractBlackhole.jpg'); */
-  /* background: rgb(108,207,20); */
-  /* background: linear-gradient(135deg, rgba(108,207,20,1) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 50%, rgba(0,168,255,1) 100%);
-  width: 100%;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position-x: center;
-  position: absolute;
-  top: 20vh;
-  height: 60vh; */
   height: 60vh;
   position: relative;
   width: 34rem;
@@ -163,19 +242,10 @@ body {
 
 
 
-#album-1 {
-  background-image: url('img/IMG-20230802-WA0018.jpg');
-  background-size: contain;
-  border: none;
-  background-repeat: no-repeat;
-}
 
-.grid .hide {
-  visibility: hidden;
-  pointer-events: none;
-}
 
-#close-popup {
+
+.close-popup {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -189,7 +259,7 @@ body {
   align-items: center;
 }
 
-#close-popup > div {
+.close-popup > div {
   color: white;
   font-family: 'Delicious';
   font-size: 2rem;
@@ -197,6 +267,158 @@ body {
   cursor: pointer;
   user-select: none;
 }
+
+
+
+
+
+
+.band_container-3 {
+  /* background-image: url('img/AbstractBlackhole.jpg'); */
+  /* background: rgb(108,207,20); */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.band_container-3.visible-popup {
+  visibility: visible;
+  pointer-events: all;
+}
+
+
+
+.text-of-band-member-actual-text.visible-popup {
+  visibility: visible;
+  pointer-events: all;
+  display: block;
+}
+
+.band_container-3 > div {
+  height: 95vh;
+  position: relative;
+  width: 34rem;
+  border-radius: 0.5rem;
+  background: linear-gradient(135deg, rgba(108,207,20,1) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 50%, rgba(0,168,255,1) 100%);
+}
+
+.close-popup {
+  z-index: 3;
+  background-image: url('img/popup2.png');
+}
+
+.band-text-container {
+  max-height: 70vh;
+  width: 100%;
+  padding: 3rem;
+  border-radius: 0.5rem;
+  color: white;
+  font-weight: bold;
+  overflow-y: auto;
+}
+
+.text-of-band-member {
+
+}
+
+.text-of-band-member-actual-text {
+  visibility: hidden;
+  display: none;
+}
+
+.popup-member-img-portrait {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 20rem;
+  height: 13rem;
+}
+
+.popup-member-img-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+
+.popup-member-img-portrait-1 {
+  background-image: url('img/andy-holmes__bk_nou_1.jpg');
+  background-position-x: -8rem;
+}
+.popup-member-img-portrait-2 {
+  background-image: url('img/andy-holmes__bk_nou_1.jpg');
+  background-position-x: -8rem;
+}
+.popup-member-img-portrait-3 {
+  background-image: url(img/GUTS/Johnny.jpg);
+  background-position-x: -14rem;
+  background-position-y: -1rem;
+}
+.popup-member-img-portrait-4 {
+  background-image: url('img/andy-holmes__bk_nou_1.jpg');
+  background-position-x: -8rem;
+}
+.popup-member-img-portrait-5 {
+  background-image: url('img/andy-holmes__bk_nou_1.jpg');
+  background-position-x: -8rem;
+}
+.popup-member-img-portrait-ALL {
+  background-image: url('img/andy-holmes__bk_nou_1.jpg');
+  background-position-x: -8rem;
+}
+
+
+.popup-member-img-overlay-1 {
+  background-image: url('img/NeonTrippyGasMaskV2.png');
+  background-position-x: -8rem;
+  opacity: 0.2;
+}
+.popup-member-img-overlay-2 {
+  background-image: url('img/NeonTrippyGasMaskV2.png');
+  background-position-x: -8rem;
+  opacity: 0.2;
+}
+.popup-member-img-overlay-3 {
+  background-image: url(img/GUTS/Johnny.jpg);
+  background-position-x: -8rem;
+  opacity: 0.2;
+}
+.popup-member-img-overlay-4 {
+  background-image: url('img/NeonTrippyGasMaskV2.png');
+  background-position-x: -8rem;
+  opacity: 0.2;
+}
+.popup-member-img-overlay-5 {
+  background-image: url('img/NeonTrippyGasMaskV2.png');
+  background-position-x: -8rem;
+  opacity: 0.2;
+}
+.popup-member-img-overlay-ALL {
+  background-image: url('img/NeonTrippyGasMaskV2.png');
+  background-position-x: -8rem;
+  opacity: 0.2;
+}
+
+
+
+
+
+
+
+
+
 
 .redirect-links {
   display: flex;
