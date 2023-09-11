@@ -160,6 +160,10 @@ body {
   margin-top: 25rem;
 }
 
+.modal-band-member-title {
+  font-size: 1.3rem;
+}
+
 
 
 #album-1 {
@@ -340,6 +344,7 @@ body {
   left: 0;
   width: 60%;
   height: 23vh;
+  background-repeat: no-repeat;
 }
 
 .popup-member-img-overlay {
@@ -350,14 +355,16 @@ body {
   height: 100%;
   opacity: 0.2;
   pointer-events: none;
+  background-repeat: no-repeat;
 }
 
 
 
 
 .popup-member-img-portrait-1 {
-  background-image: url('img/andy-holmes__bk_nou_1.jpg');
-  background-position-x: -8rem;
+  background-image: url('img/_band-members/Alexander-1-EDIT.jpg');
+  background-position-x: 0rem;
+  background-position-y: -1.5rem;
 }
 .popup-member-img-portrait-2 {
   background-image: url('img/andy-holmes__bk_nou_1.jpg');
@@ -369,22 +376,26 @@ body {
   background-position-y: -1rem;
 }
 .popup-member-img-portrait-4 {
-  background-image: url('img/andy-holmes__bk_nou_1.jpg');
-  background-position-x: -8rem;
+  background-image: url('img/_band-members/Alejandro-1.jpg');
+  background-position-x: 0rem;
 }
 .popup-member-img-portrait-5 {
-  background-image: url('img/andy-holmes__bk_nou_1.jpg');
-  background-position-x: -8rem;
+  background-image: url('img/_band-members/Matthew-1.jpg');
+  background-position-x: -5rem;
+  background-position-y: -1.5rem;
 }
 .popup-member-img-portrait-ALL {
-  background-image: url('img/andy-holmes__bk_nou_1.jpg');
-  background-position-x: -8rem;
+  background-image: url('img/logo.png');
+  background-position-x: 0rem;
+  background-size: contain;
 }
 
 
 .popup-member-img-overlay-1 {
-  background-image: url('img/NeonTrippyGasMaskV2.png');
-  background-position-x: -8rem;
+  background-image: url('img/_band-members/Alexander-1.jpg');
+  background-position-x: 0rem;
+  background-position-y: 0rem;
+  background-size: cover;
   opacity: 0.2;
 }
 .popup-member-img-overlay-2 {
@@ -398,27 +409,31 @@ body {
   opacity: 0.2;
 }
 .popup-member-img-overlay-4 {
-  background-image: url('img/NeonTrippyGasMaskV2.png');
+  background-image: url('img/_band-members/Alejandro-2.jpg');
   background-position-x: -8rem;
   opacity: 0.2;
 }
 .popup-member-img-overlay-5 {
-  background-image: url('img/NeonTrippyGasMaskV2.png');
-  background-position-x: -8rem;
+  background-image: url('img/_band-members/Matthew-2.jpg');
+  background-position-x: -6rem;
+  background-size: cover;
   opacity: 0.2;
 }
 .popup-member-img-overlay-ALL {
   background-image: url('img/NeonTrippyGasMaskV2.png');
-  background-position-x: -8rem;
+  background-position-x: -19rem;
   opacity: 0.2;
 }
 
 
 @media screen and (max-width: 63.9em) and (orientation: portrait) {
 
+
+  
   .popup-member-img-portrait-1 {
-    background-image: url('img/andy-holmes__bk_nou_1.jpg');
-    background-position-x: -8rem;
+    background-image: url('img/_band-members/Alexander-1-EDIT.jpg');
+    background-position-x: 0rem;
+    background-position-y: -0.5rem;
   }
   .popup-member-img-portrait-2 {
     background-image: url('img/andy-holmes__bk_nou_1.jpg');
@@ -426,26 +441,24 @@ body {
   }
   .popup-member-img-portrait-3 {
     background-image: url(img/GUTS/Johnny.jpg);
-    background-position-x: -14rem;
+    background-position-x: -15rem;
     background-position-y: -1rem;
   }
   .popup-member-img-portrait-4 {
-    background-image: url('img/andy-holmes__bk_nou_1.jpg');
-    background-position-x: -8rem;
+    background-image: url('img/_band-members/Alejandro-1.jpg');
+    background-position-x: 0rem;
+    background-position-y: 2.5rem;
   }
   .popup-member-img-portrait-5 {
-    background-image: url('img/andy-holmes__bk_nou_1.jpg');
-    background-position-x: -8rem;
+    background-image: url('img/_band-members/Matthew-1.jpg');
+    background-position-x: -1rem;
+    background-position-y: -1.5rem;
   }
-  .popup-member-img-portrait-ALL {
-    background-image: url('img/andy-holmes__bk_nou_1.jpg');
-    background-position-x: -8rem;
-  }
-  
   
   .popup-member-img-overlay-1 {
-    background-image: url('img/NeonTrippyGasMaskV2.png');
-    background-position-x: -8rem;
+    background-image: url('img/_band-members/Alexander-1.jpg');
+    background-position-x: 0rem;
+    background-size: cover;
     opacity: 0.2;
   }
   .popup-member-img-overlay-2 {
@@ -459,18 +472,21 @@ body {
     opacity: 0.2;
   }
   .popup-member-img-overlay-4 {
-    background-image: url('img/NeonTrippyGasMaskV2.png');
+    background-image: url('img/_band-members/Alejandro-2.jpg');
     background-position-x: -8rem;
+    background-size: cover;
     opacity: 0.2;
   }
   .popup-member-img-overlay-5 {
-    background-image: url('img/NeonTrippyGasMaskV2.png');
-    background-position-x: -8rem;
+    background-image: url('img/_band-members/Matthew-2.jpg');
+    background-position-x: 0rem;
+    background-size: cover;
     opacity: 0.2;
   }
   .popup-member-img-overlay-ALL {
     background-image: url('img/NeonTrippyGasMaskV2.png');
-    background-position-x: -8rem;
+    background-position-x: -6rem;
+    background-size: cover;
     opacity: 0.2;
   }
 }
