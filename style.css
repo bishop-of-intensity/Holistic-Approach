@@ -367,8 +367,9 @@ body {
   background-position-y: -1.5rem;
 }
 .popup-member-img-portrait-2 {
-  background-image: url('img/andy-holmes__bk_nou_1.jpg');
-  background-position-x: -8rem;
+  background-image: url('img/_band-members/Jack.jpg');
+  background-position-x: -3rem;
+  background-position-y: 1rem;
 }
 .popup-member-img-portrait-3 {
   background-image: url(img/GUTS/Johnny.jpg);
@@ -436,8 +437,9 @@ body {
     background-position-y: -0.5rem;
   }
   .popup-member-img-portrait-2 {
-    background-image: url('img/andy-holmes__bk_nou_1.jpg');
-    background-position-x: -8rem;
+    background-image: url('img/_band-members/Jack.jpg');
+    background-position-x: 0rem;
+    background-position-y: 3rem;
   }
   .popup-member-img-portrait-3 {
     background-image: url(img/GUTS/Johnny.jpg);
