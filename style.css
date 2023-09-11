@@ -362,12 +362,12 @@ body {
 
 
 .popup-member-img-portrait-1 {
-  background-image: url('img/_band-members/Alexander-1-EDIT.jpg');
+  background-image: url('img/Alexander-1-EDIT.jpg');
   background-position-x: 0rem;
   background-position-y: -1.5rem;
 }
 .popup-member-img-portrait-2 {
-  background-image: url('img/_band-members/Jack.jpg');
+  background-image: url('img/Jack.jpg');
   background-position-x: -3rem;
   background-position-y: 1rem;
 }
@@ -377,11 +377,11 @@ body {
   background-position-y: -1rem;
 }
 .popup-member-img-portrait-4 {
-  background-image: url('img/_band-members/Alejandro-1.jpg');
+  background-image: url('img/Alejandro-1.jpg');
   background-position-x: 0rem;
 }
 .popup-member-img-portrait-5 {
-  background-image: url('img/_band-members/Matthew-1.jpg');
+  background-image: url('img/Matthew-1.jpg');
   background-position-x: -5rem;
   background-position-y: -1.5rem;
 }
@@ -393,7 +393,7 @@ body {
 
 
 .popup-member-img-overlay-1 {
-  background-image: url('img/_band-members/Alexander-1.jpg');
+  background-image: url('img/Alexander-1.jpg');
   background-position-x: 0rem;
   background-position-y: 0rem;
   background-size: cover;
@@ -410,12 +410,12 @@ body {
   opacity: 0.2;
 }
 .popup-member-img-overlay-4 {
-  background-image: url('img/_band-members/Alejandro-2.jpg');
+  background-image: url('img/Alejandro-2.jpg');
   background-position-x: -8rem;
   opacity: 0.2;
 }
 .popup-member-img-overlay-5 {
-  background-image: url('img/_band-members/Matthew-2.jpg');
+  background-image: url('img/Matthew-2.jpg');
   background-position-x: -6rem;
   background-size: cover;
   opacity: 0.2;
@@ -432,12 +432,12 @@ body {
 
   
   .popup-member-img-portrait-1 {
-    background-image: url('img/_band-members/Alexander-1-EDIT.jpg');
+    background-image: url('img/Alexander-1-EDIT.jpg');
     background-position-x: 0rem;
     background-position-y: -0.5rem;
   }
   .popup-member-img-portrait-2 {
-    background-image: url('img/_band-members/Jack.jpg');
+    background-image: url('img/Jack.jpg');
     background-position-x: 0rem;
     background-position-y: 3rem;
   }
@@ -447,18 +447,18 @@ body {
     background-position-y: -1rem;
   }
   .popup-member-img-portrait-4 {
-    background-image: url('img/_band-members/Alejandro-1.jpg');
+    background-image: url('img/Alejandro-1.jpg');
     background-position-x: 0rem;
     background-position-y: 2.5rem;
   }
   .popup-member-img-portrait-5 {
-    background-image: url('img/_band-members/Matthew-1.jpg');
+    background-image: url('img/Matthew-1.jpg');
     background-position-x: -1rem;
     background-position-y: -1.5rem;
   }
   
   .popup-member-img-overlay-1 {
-    background-image: url('img/_band-members/Alexander-1.jpg');
+    background-image: url('img/Alexander-1.jpg');
     background-position-x: 0rem;
     background-size: cover;
     opacity: 0.2;
@@ -474,13 +474,13 @@ body {
     opacity: 0.2;
   }
   .popup-member-img-overlay-4 {
-    background-image: url('img/_band-members/Alejandro-2.jpg');
+    background-image: url('img/Alejandro-2.jpg');
     background-position-x: -8rem;
     background-size: cover;
     opacity: 0.2;
   }
   .popup-member-img-overlay-5 {
-    background-image: url('img/_band-members/Matthew-2.jpg');
+    background-image: url('img/Matthew-2.jpg');
     background-position-x: 0rem;
     background-size: cover;
     opacity: 0.2;
