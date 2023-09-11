@@ -212,9 +212,10 @@ body {
   pointer-events: none;
 }
 
-.band_container-2.visible-popup {
-  visibility: visible;
-  pointer-events: all;
+.band_container-2.visible-popup,
+.show-warning {
+  visibility: visible!important;
+  pointer-events: all!important;
 }
 
 .band_container-2 > div {
@@ -358,6 +359,42 @@ body {
   background-repeat: no-repeat;
 }
 
+.in-progress {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  visibility: hidden;
+  background-color: #000000a1;
+  user-select: none;
+  left: 0;
+}
+
+.in-progress-container {
+  height: 20rem;
+  width: 40rem;
+  margin-top: 10rem;
+  padding: 5rem;
+  background-color: white;
+  border: 0.3rem solid #5166ad;
+  color: black;
+  border-radius: 2rem;
+}
+
+.warning-txt {
+  font-size: 1.3rem;
+}
+
+.close-warning {
+  position: absolute;
+  top: -4rem;
+  right: -3rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
 
 
 
@@ -367,9 +404,9 @@ body {
   background-position-y: -1.5rem;
 }
 .popup-member-img-portrait-2 {
-  background-image: url('img/Jack.jpg');
-  background-position-x: -3rem;
-  background-position-y: 1rem;
+  background-image: url('img/JackMain.jpg');
+  background-position-x: -7rem;
+  background-position-y: -1rem;
 }
 .popup-member-img-portrait-3 {
   background-image: url(img/GUTS/Johnny.jpg);
@@ -400,9 +437,10 @@ body {
   opacity: 0.2;
 }
 .popup-member-img-overlay-2 {
-  background-image: url('img/NeonTrippyGasMaskV2.png');
-  background-position-x: -8rem;
+  background-image: url('img/JackMain0.jpg');
+  background-position-x: -16rem;
   opacity: 0.2;
+  background-size: cover;
 }
 .popup-member-img-overlay-3 {
   background-image: url(img/GUTS/Johnny.jpg);
@@ -437,9 +475,9 @@ body {
     background-position-y: -0.5rem;
   }
   .popup-member-img-portrait-2 {
-    background-image: url('img/Jack.jpg');
-    background-position-x: 0rem;
-    background-position-y: 3rem;
+    background-image: url('img/JackMain.jpg');
+    background-position-x: -1rem;
+    background-position-y: 0rem;
   }
   .popup-member-img-portrait-3 {
     background-image: url(img/GUTS/Johnny.jpg);
@@ -464,8 +502,8 @@ body {
     opacity: 0.2;
   }
   .popup-member-img-overlay-2 {
-    background-image: url('img/NeonTrippyGasMaskV2.png');
-    background-position-x: -8rem;
+    background-image: url('img/JackMain0.jpg');
+    background-position-x: -9rem;
     opacity: 0.2;
   }
   .popup-member-img-overlay-3 {
@@ -490,6 +528,10 @@ body {
     background-position-x: -6rem;
     background-size: cover;
     opacity: 0.2;
+  }
+
+  .in-progress-container {
+    width: 35rem;
   }
 }
 
