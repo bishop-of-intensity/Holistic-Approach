@@ -72,11 +72,11 @@ $('.close-warning').click(function() {
 
 
 $('#album-1').click(function() {
-    $('.in-progress').addClass('show-warning');
+    // $('.in-progress').addClass('show-warning');
     // console.log('albums-1 link')
     // $('.band_container-2').addClass('visible-popup')
-    // var win = window.open('https://github.com/bishop-of-intensity/Holistic-Approach', '_blank');
-    // win.focus();
+    var win = window.open('https://open.spotify.com/track/3Vfm58lpWSM3LGKL86YXdF?si=d6ef85ebfb44424a', '_blank');
+    win.focus();
 });
 
 
