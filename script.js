@@ -12,10 +12,10 @@ $('#facebook').click(function() {
     // win.focus();
 });
 $('#instagram').click(function() {
-    $('.in-progress').addClass('show-warning');
+    // $('.in-progress').addClass('show-warning');
     // console.log('instagram link')
-    // var win = window.open('https://github.com/bishop-of-intensity/Holistic-Approach', '_blank');
-    // win.focus();
+    var win = window.open('https://www.instagram.com/thehollisticapproach?igshid=NjIwNzIyMDk2Mg%3D%3D', '_blank');
+    win.focus();
 });
 $('#twit').click(function() {
     $('.in-progress').addClass('show-warning');
@@ -24,16 +24,16 @@ $('#twit').click(function() {
     // win.focus();
 });
 $('#tiktok').click(function() {
-    $('.in-progress').addClass('show-warning');
+    // $('.in-progress').addClass('show-warning');
     // console.log('tiktok link')
-    // var win = window.open('https://github.com/bishop-of-intensity/Holistic-Approach', '_blank');
-    // win.focus();
+    var win = window.open('https://www.tiktok.com/@thehollisticapproach?_t=8fdVeEeK7E1&_r=1', '_blank');
+    win.focus();
 });
 $('#spotify').click(function() {
-    $('.in-progress').addClass('show-warning');
+    // $('.in-progress').addClass('show-warning');
     // console.log('spotify link')
-    // var win = window.open('https://github.com/bishop-of-intensity/Holistic-Approach', '_blank');
-    // win.focus();
+    var win = window.open('https://open.spotify.com/artist/1jGhQTYLR0cmVcTOviscgg?si=6Gt8vehBSpm5lks4yegepA', '_blank');
+    win.focus();
 });
 $('#apple-music').click(function() {
     $('.in-progress').addClass('show-warning');
