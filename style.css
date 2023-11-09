@@ -358,6 +358,7 @@ body {
   opacity: 0.2;
   pointer-events: none;
   background-repeat: no-repeat;
+  background-position-x: center!important;
 }
 
 .in-progress {
