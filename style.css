@@ -346,6 +346,7 @@ body {
   width: 60%;
   height: 23vh;
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .popup-member-img-overlay {
@@ -400,31 +401,33 @@ body {
 
 .popup-member-img-portrait-1 {
   background-image: url('img/Alexander-1-EDIT.jpg');
-  background-position-x: 0rem;
-  background-position-y: -1.5rem;
+  /* background-position-x: 0rem;
+  background-position-y: -1.5rem; */
 }
 .popup-member-img-portrait-2 {
   background-image: url('img/JackMain.jpg');
-  background-position-x: -7rem;
-  background-position-y: -1rem;
+  /* background-position-x: -7rem;
+  background-position-y: -1rem; */
 }
 .popup-member-img-portrait-3 {
-  background-image: url(img/GUTS/Johnny.jpg);
-  background-position-x: -26rem;
+  /* background-image: url(img/GUTS/Johnny.jpg); */
+  background-image: url(img/GUTS/Johnny-zmal.jpg);
+  /* background-position-x: -26rem;
   background-position-y: -1rem;
+  background-size: auto; */
 }
 .popup-member-img-portrait-4 {
   background-image: url('img/Alejandro-1.jpg');
-  background-position-x: 0rem;
+  /* background-position-x: 0rem; */
 }
 .popup-member-img-portrait-5 {
   background-image: url('img/Matthew-1.jpg');
-  background-position-x: -5rem;
-  background-position-y: -1.5rem;
+  /* background-position-x: -5rem;
+  background-position-y: -1.5rem; */
 }
 .popup-member-img-portrait-ALL {
   background-image: url('img/logo.png');
-  background-position-x: 0rem;
+  /* background-position-x: 0rem; */
   background-size: contain;
 }
 
@@ -468,11 +471,15 @@ body {
 @media screen and (max-width: 63.9em) and (orientation: portrait) {
 
 
+  .popup-member-img-portrait {
+    background-size: cover;
+  }
+
   
   .popup-member-img-portrait-1 {
     background-image: url('img/Alexander-1-EDIT.jpg');
-    background-position-x: 0rem;
-    background-position-y: -0.5rem;
+    /* background-position-x: 0rem;
+    background-position-y: -0.5rem; */
   }
   .popup-member-img-portrait-2 {
     background-image: url('img/JackMain.jpg');
@@ -483,6 +490,7 @@ body {
     background-image: url(img/GUTS/Johnny.jpg);
     background-position-x: -15rem;
     background-position-y: -1rem;
+    background-size: auto;
   }
   .popup-member-img-portrait-4 {
     background-image: url('img/Alejandro-1.jpg');
@@ -492,7 +500,7 @@ body {
   .popup-member-img-portrait-5 {
     background-image: url('img/Matthew-1.jpg');
     background-position-x: -1rem;
-    background-position-y: -1.5rem;
+    /* background-position-y: -1.5rem; */
   }
   
   .popup-member-img-overlay-1 {
